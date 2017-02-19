@@ -3,26 +3,20 @@
     padding-right: 2%;
 }
 
-button.btn {
+a.btn {
     background: transparent;
     border: 3px solid lightgray;
     padding-left: 20px;
     padding-right: 20px;
     transition: background 1s;
-}
-
-button.btn:hover {
-    background: lightgray;
-    color: transparent;
-}
-
-button.btn a {
     color: lightgray;
     font-weight: bold;
 }
 
-button.btn a:hover {
-    color: transparent
+a.btn:hover {
+    background: lightgray;
+    color: transparent;
+    color: black;
 }
 
 .pp {
