@@ -1,19 +1,24 @@
-.row1 {
-    padding-top: 2%;
-    padding-right: 2%;
+li {
+    margin: 3px;
 }
 
-a.btn {
+li a {
     background: transparent;
-    border: 3px solid lightgray;
+    border: 2px solid lightgray;
     padding-left: 20px;
     padding-right: 20px;
     transition: background 1s;
     color: lightgray;
     font-weight: bold;
+    border-radius: 6%;
+    width: 100px;
+    text-align: center;
+    vertical-align: center;
+    padding: auto;
+    padding-bottom: 10px;
 }
 
-a.btn:hover {
+li a:hover {
     background: lightgray;
     color: transparent;
     color: black;
@@ -62,7 +67,7 @@ a.btn:hover {
 
 .col3 {
     background: transparent;
-    padding: 2%;
+    padding: 2% 4%;
     font-family: arial;
     margin-bottom: 0px;
     max-height: 110%;
