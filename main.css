@@ -1,27 +1,14 @@
-li {
-    margin: 3px;
-}
-
-li a {
+nav.navbar {
+    margin: 0px;
+    border-radius: 0px;
+    font-family: arial;
     background: transparent;
-    border: 2px solid lightgray;
-    padding-left: 20px;
-    padding-right: 20px;
-    transition: background 1s;
-    color: lightgray;
-    font-weight: bold;
-    border-radius: 6%;
-    width: 100px;
-    text-align: center;
-    vertical-align: center;
-    padding: auto;
-    padding-bottom: 10px;
+    border: 0px;
 }
 
-li a:hover {
-    background: lightgray;
-    color: transparent;
-    color: black;
+ul.nav li a {
+    background: transparent;
+    color: blue;
 }
 
 .pp {
