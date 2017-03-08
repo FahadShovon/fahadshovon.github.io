@@ -6,11 +6,6 @@ nav.navbar {
     border: 0px;
 }
 
-ul.nav li a {
-    background: transparent;
-    color: blue;
-}
-
 .pp {
     max-width: 200px;
     max-height: 200px;
